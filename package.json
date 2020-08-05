@@ -1,0 +1,17 @@
+{
+  "name": "foodlabel_site",
+  "version": "1.0.0",
+  "description": "This is foodlabel-app leading site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdlabo-team/foodlabel_site.git"
+  },
+  "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
+  "bugs": {
+    "url": "https://github.com/rdlabo-team/foodlabel_site/issues"
+  },
+  "homepage": "https://github.com/rdlabo-team/foodlabel_site#readme",
+  "devDependencies": {
+    "firebase-tools": "^8.6.0"
+  }
+}
