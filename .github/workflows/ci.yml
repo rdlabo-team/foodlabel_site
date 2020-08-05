@@ -14,7 +14,18 @@ jobs:
         with:
           node-version: 12.x
 
+      # パッケージのキャッシュ
+      - name: Use cached node_modules
+        uses: actions/cache@v1
+        with:
+          path:
+            node_modules
+          key: ${{ runner.os }}-v1-dependencies-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-v1-dependencies-
+
       # デプロイ
       - name: Deploy to Firebase Hosting
         run: |
+          npm ci
           npx firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
