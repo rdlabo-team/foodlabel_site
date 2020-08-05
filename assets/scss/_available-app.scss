@@ -5,20 +5,20 @@
     @extend %available-app;
     @media #{$lg}{
         padding-top: 150px;
-        padding-bottom: 150px;   
+        padding-bottom: 150px;
     }
     @media #{$md}{
         padding-top: 100px;
-        padding-bottom: 100px;   
-    } 
-    
+        padding-bottom: 100px;
+    }
+
     @media #{$sm}{
         padding-top: 100px;
-        padding-bottom: 100px;   
-    }    
+        padding-bottom: 100px;
+    }
     @media #{$xs}{
         padding-top: 100px;
-        padding-bottom: 100px;   
+        padding-bottom: 100px;
     }
     .app-caption{
         .section-tittle3{
@@ -44,14 +44,14 @@
                 }
             }
         }
-        
+
     }
     .app-img{
         position: relative;
         right: -88px;
         @media #{$big_screen}{
             right: 0px;
-        } 
+        }
         @media #{$lg}{
             top: 45px;
             right: 0;
@@ -63,7 +63,7 @@
         @media #{$sm}{
             top: 45px;
             right: 0;
-        } 
+        }
         @media #{$xs}{
             top: 45px;
             right: 0;
@@ -91,13 +91,13 @@
             top: 208px;
             @media #{$big_screen}{
                 display: none !important;
-            } 
+            }
             @media #{$lg}{
                 display: none !important;
-            } 
+            }
             @media #{$md}{
                 display: none !important;
-            }   
+            }
             @media #{$sm}{
                 display: none !important;
             }
@@ -120,15 +120,15 @@
             color: #282828;
             @media #{$lg}{
                 font-size: 41px;
-            } 
+            }
             @media #{$md}{
                 margin-bottom: 25px;
-                
-            } 
+
+            }
             @media #{$sm}{
                 margin-bottom: 25px;
                 font-size: 41px;
-            } 
+            }
             @media #{$xs}{
                 margin-bottom: 25px;
                 font-size: 30px;
